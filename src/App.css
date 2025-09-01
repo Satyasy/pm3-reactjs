@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -45,4 +48,26 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* kelompok 4 alert halo */
+/* Halo Button styling */
+.halo-button {
+  background-color: var(--button-bg);
+  color: #fff;
+  border: none;
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 30px 0 0 0;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.halo-button:hover {
+  background-color: var(--button-hover);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
