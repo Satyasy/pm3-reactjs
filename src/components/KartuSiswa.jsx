@@ -7,7 +7,7 @@ function KartuSiswa(props) {
       color: '#fff',               // 🔠 Teks putih biar kontras
       border: '1px solid #444',
       borderRadius: '10px',
-      padding: '16px',
+      padding: '16px',      
       margin: '30px',
       width: '250px',
       boxShadow: '0 4px 10px rgba(0,0,0,0.5)',

@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import "./header.css"
+import "./header.css";
 import { Footer } from "./components/footer";
 import Profil from "./components/Profile";
 import Header from "./components/Header";
 import KartuSiswa from "./components/KartuSiswa";
 import HaloButton from "./components/HaloButton";
+import InputNama from "./components/InputNama";
+import CardProduk from "./components/CardProduk";
 
 function App() {
   // Deklarasi Variabel dan Value useState
@@ -90,6 +92,13 @@ function App() {
           <button onClick={() => setCount(0)}>Klik untuk mereset</button>
         </div>
       </div>
+      {/* InputNama */}
+      <InputNama />
+      <CardProduk
+        name="Produk A"
+        price={100}
+        description="Deskripsi singkat tentang Produk A."
+      />
       {/* Footer kelompok 2 */}
       <Footer />
     </>
