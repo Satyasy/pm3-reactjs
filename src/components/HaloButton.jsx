@@ -6,7 +6,7 @@ function HaloButton() {
   }
 
   return (
-    <button onClick={handleClick}>
+    <button className="halo-button" onClick={handleClick}>
       Halo
     </button>
   );

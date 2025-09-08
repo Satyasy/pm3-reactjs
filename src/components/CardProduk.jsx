@@ -18,7 +18,7 @@ const CardProduk = ({ name, price, description }) => {
             font-family: 'Segoe UI', 'Arial', sans-serif;
           }
           
-          .card:hover {
+          .card-produk:hover {
             transform: translateY(-6px) scale(1.03);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16), 0 2px 8px rgba(0, 0, 0, 0.08);
           }
